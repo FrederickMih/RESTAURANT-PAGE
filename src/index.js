@@ -1,4 +1,5 @@
 import myFooter from "./footer.js";
+import displayHome from "./home.js"
 
 const navigationBar = () => {
   const navBar = document.createElement("nav");
@@ -11,7 +12,7 @@ const navigationBar = () => {
   const menuLink = document.createElement("a");
   const contactLink = document.createElement("a");
 
-  navHeader.innerText = "Traditional Meals Restaurant";
+  navHeader.innerText = "A Taste of Africa - Recipes";
   homeLink.innerText = "Home";
   menuLink.innerText = "Menu";
   contactLink.innerText = "Contact";
@@ -50,6 +51,7 @@ const run = () => {
   const content = document.getElementById("content");
   content.appendChild(navigationBar());
   content.appendChild(myFooter());
+  content.appendChild(displayHome());
 };
 
 run();
