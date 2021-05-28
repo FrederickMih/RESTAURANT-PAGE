@@ -1,3 +1,5 @@
+import myFooter from "./footer.js";
+
 const navigationBar = () => {
   const navBar = document.createElement("nav");
   const navHeader = document.createElement("h1");
@@ -8,10 +10,12 @@ const navigationBar = () => {
   const homeLink = document.createElement("a");
   const menuLink = document.createElement("a");
   const contactLink = document.createElement("a");
+
   navHeader.innerText = "Traditional Meals Restaurant";
   homeLink.innerText = "Home";
-  contactLink.innerText = "Contact";
   menuLink.innerText = "Menu";
+  contactLink.innerText = "Contact";
+
   navBar.setAttribute("class", "nav-bar");
   navHeader.setAttribute("class", "rest-header");
   navUlist.setAttribute("class", "menu-list");
@@ -39,16 +43,13 @@ const navigationBar = () => {
   menuLi.appendChild(menuLink);
   contactLi.appendChild(contactLink);
 
- return navBar;
+  return navBar;
 };
- 
 
 const run = () => {
   const content = document.getElementById("content");
   content.appendChild(navigationBar());
-  
+  content.appendChild(myFooter());
 };
 
 run();
-
-
