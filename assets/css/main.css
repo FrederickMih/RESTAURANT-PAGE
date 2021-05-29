@@ -6,6 +6,38 @@ body {
   padding: 0;
 }
 
+.menu-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5rem;
+}
+
+.menu-link {
+  color: #c9ab8123;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.menu-link:hover {
+  color: #816e52;
+}
+
+#myMenu {
+  width: 70%;
+}
+
 nav {
   margin: 0;
   border-bottom: 1px solid #c9ab8123;

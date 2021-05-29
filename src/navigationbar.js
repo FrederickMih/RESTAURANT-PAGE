@@ -9,7 +9,7 @@ const navigationBar = () => {
   const menuLink = document.createElement("a");
   const contactLink = document.createElement("a");
 
-  navHeader.innerText = "A Taste of Africa - Recipes";
+  
   homeLink.innerText = "Home";
   menuLink.innerText = "Menu";
   contactLink.innerText = "Contact";
