@@ -1,14 +1,14 @@
 body {
   font: 100% courier, arial, helvetica;
-  background: url(/assets/images/eru1.jpg) no-repeat center center fixed;
+  background: url(/assets/images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 
 .menu-item {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   font-size: 2rem;
 }
 
@@ -24,18 +24,18 @@ body {
 }
 
 .menu-link {
-  color: #c9ab8123;
+  color: #eee7dddc;
   text-decoration: none;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-link:hover {
-  color: #816e52;
+  color: #765281;
 }
 
 #myMenu {
-  width: 70%;
+  width: 90%;
 }
 
 .img-meal {
@@ -47,7 +47,6 @@ body {
 
 .img-meal:hover {
   width: 22rem;
-  border: 1px solid #c9ab8123;
 }
 
 .meals {
@@ -63,7 +62,7 @@ body {
 
 .meal {
   margin: 1rem;
-  color: #c9ab8123;
+  color: #eee7dddc;
   text-decoration: none;
 }
 
@@ -78,9 +77,8 @@ body {
 
 nav {
   margin: 0;
-  border-bottom: 1px solid #c9ab8123;
-  color: #c9ab8123;
-  background-color: rgba(21, 30, 36, 0.794);
+  color: #eee7dddc;
+  background-color: rgba(238, 244, 248, 0);
   padding-top: 2rem;
 }
 
@@ -99,13 +97,12 @@ nav {
   width: 30rem;
   margin: 0 auto;
   padding: 2rem;
-  border: 1px solid #c9ab8123;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-color: rgba(21, 30, 36, 0.794);
+  background-color: rgba(238, 244, 248, 0);
   border-radius: 10px;
   text-align: center;
-  color: #c9ab8123;
+  color: #eee7dddc;
   font-size: 2rem;
 }
 
@@ -121,9 +118,8 @@ nav {
 
 .footer {
   margin: 0;
-  border-top: 1px solid #c9ab8123;
-  color: #c9ab8123;
-  background-color: rgba(21, 30, 36, 0.794);
+  color: #eee7dddc;
+  background-color: rgba(238, 244, 248, 0);
   padding: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
