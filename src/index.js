@@ -1,6 +1,7 @@
-import myFooter from "./footer.js";
 import displayHome from "./home.js";
 import displayMenu from "./menus.js";
+import contactUs from "./contact_us.js"
+import myFooter from "./footer.js";
 
 const navigationBar = () => {
   const navBar = document.createElement("nav");
@@ -54,6 +55,7 @@ const run = () => {
   content.appendChild(myFooter());
   content.appendChild(displayHome());
   content.appendChild(displayMenu());
+  content.appendChild(contactUs());
 };
 
 run();

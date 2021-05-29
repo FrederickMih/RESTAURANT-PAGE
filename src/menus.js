@@ -33,13 +33,13 @@ const displayMenu = () => {
   imgMeal3.setAttribute("src", "../assets/images/eru.jpg");
 
   parMeal1.setAttribute("class", "par-meal");
-  parMeal1.innerText = "First Course";
+  parMeal1.innerText = "Dish One";
   parMeal2.setAttribute("class", "par-meal");
-  parMeal2.innerText = "Second Course";
+  parMeal2.innerText = "Dish Two";
   parMeal3.setAttribute("class", "par-meal");
-  parMeal3.innerText = "Dessert";
+  parMeal3.innerText = "Dish Three";
 
-  homeNote.innerText = "We use only the best species!";
+  homeNote.innerText = "Find The True Taste Here!";
 
   menu.setAttribute("class", "menu, main");
   menu.setAttribute("id", "menuPage");
