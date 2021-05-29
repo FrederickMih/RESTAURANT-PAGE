@@ -1,46 +1,22 @@
-header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  padding: 1rem;
+body {
+  font: 100% courier, arial, helvetica;
+  background: url(/assets/images/eru1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+nav {
+  margin: 0;
+  border-bottom: 1px solid #c9ab8123;
+  color: #c9ab8123;
+  background-color: rgba(21, 30, 36, 0.794);
+  padding-top: 2rem;
 }
 
-.nav .menu-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style-type: none;
-  padding-right: 1rem;
-}
-
-.nav .menu-nav__item {
-  -webkit-transform: translateX(100vw);
-          transform: translateX(100vw);
-}
-
-.nav .menu-nav__item.active > a {
-  color: red;
-}
-
-.nav .menu-nav__link {
-  display: inline-block;
-  font-size: 2.8em;
-  text-transform: uppercase;
-  padding: 2rem 0;
-  font-weight: 300;
-}
-
-.nav .menu-nav__link:hover {
-  color: blue;
+.rest-header {
+  margin: 0;
+  font-size: 3.5rem;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

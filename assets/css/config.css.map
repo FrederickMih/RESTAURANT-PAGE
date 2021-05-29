@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../dist/config.scss"
+    ],
+    "names": [],
+    "file": "config.css"
+}

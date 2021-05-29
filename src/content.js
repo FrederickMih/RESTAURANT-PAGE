@@ -5,5 +5,4 @@ const displayContent = (pageName) => {
   }
   document.getElementById(pageName).style.display = "block";
 };
-
 export default displayContent;
