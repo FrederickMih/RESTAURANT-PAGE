@@ -1,5 +1,5 @@
 const displayMenu = () => {
-  const menu = document.createElement("section");
+  const menu = document.createElement("main");
   const homeNote = document.createElement("h4");
   const homeImg = document.createElement("img");
 

@@ -1,8 +1,8 @@
 import navigationBar from "./navigationbar.js"
 import displayHome from "./home.js";
 import displayMenu from "./menus.js";
-import contactUs from "./contact_us.js"
 import displayContent from "./content.js"
+import contactUs from "./contact_us.js";
 import myFooter from "./footer.js";
 
 

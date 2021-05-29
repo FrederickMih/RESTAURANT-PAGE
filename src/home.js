@@ -1,5 +1,5 @@
 const displayHome = () => {
-  const home = document.createElement("section");
+  const home = document.createElement("main");
   const homeTitle = document.createElement("h2");
   const homeNote = document.createElement("h5");
   const homeImg = document.createElement("img");
@@ -7,7 +7,7 @@ const displayHome = () => {
   homeTitle.innerText = "A Taste of Africa - Recipes";
   homeNote.innerText = "Words are sweet but they can never replace food!"
 
-  home.setAttribute("class", "section");
+  home.setAttribute("class", "main");
   home.setAttribute("id", "homePage");
   homeTitle.setAttribute("class", "home-title");
   homeNote.setAttribute("class", "home-note");
