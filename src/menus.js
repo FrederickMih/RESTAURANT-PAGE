@@ -42,7 +42,7 @@ const displayMenu = () => {
   homeNote.innerText = "Find The True Taste Here!";
 
   menu.setAttribute("class", "menu, main");
-  menu.setAttribute("id", "menuPage");
+  menu.setAttribute("id", "myMenu");
   homeNote.setAttribute("class", "main-quote");
   homeImg.setAttribute("class", "main-menu-img");
   homeImg.setAttribute("src", "../assets/images/eru.jpg");
