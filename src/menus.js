@@ -47,7 +47,7 @@ const displayMenu = () => {
   homeImg.setAttribute("class", "main-menu-img");
   homeImg.setAttribute("src", "../assets/images/eru.jpg");
 
-  menu.style.display = "flex";
+  menu.style.display = "none";
 
   menu.appendChild(homeImg);
   menu.appendChild(homeNote);
