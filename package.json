@@ -33,9 +33,7 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.19.0"
-  },
-  "dependencies": {
+    "stylelint-scss": "^3.19.0",
     "css-loader": "^5.2.6",
     "style-loader": "^2.0.0"
   }
