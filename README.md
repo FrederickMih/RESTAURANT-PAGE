@@ -15,8 +15,7 @@ There I used JavaScript alone to generate the entire contents of the website.
 - Open the terminal in the directory where you want to install the app;
 - Run command `git clone git@github.com:FrederickMih/RESTAURANT-PAGE.git` which will clone the project;
 - Switch to the main directory of project using cd;
-- Run `npm install webpack webpack-cli --save-dev` in your computer terminal to install Webpack (you will need Node.js installed on your machine);
-- Open index.html file in your browser;
+- Open index.html file in your browser from /dist folder.
 
 
 ## Screenshot
@@ -26,7 +25,7 @@ There I used JavaScript alone to generate the entire contents of the website.
 
 ### Deployment
 
-This application is deployed on [GitHubPages](https://frederickmih.github.io/RESTAURANT-PAGE/).
+This application is deployed on [GitHubPages](https://frederickmih.github.io/RESTAURANT-PAGE/#).
 
 ## Authors
 

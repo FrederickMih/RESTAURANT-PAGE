@@ -1,6 +1,6 @@
 body {
   font: 100% Helvetica, sans-serif;
-  background: url(/assets/images/bg.jpg) no-repeat center center fixed;
+  background: url(assets/images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -13,13 +13,13 @@ body {
 }
 
 .menu-list {
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0.5rem;
 }
 
@@ -50,14 +50,14 @@ body {
 }
 
 .meals {
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .meal {
@@ -93,8 +93,7 @@ nav {
   height: 100vw;
 }
 
-.main,
-.menu {
+.main, .menu {
   width: 30rem;
   margin: 0 auto;
   padding: 2rem;
@@ -123,3 +122,4 @@ nav {
   background-color: rgba(238, 244, 248, 0.219);
   padding: 2rem;
 }
+/*# sourceMappingURL=main.css.map */

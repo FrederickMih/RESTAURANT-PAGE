@@ -35,15 +35,15 @@ const displayMenu = () => {
   meal5.setAttribute('href', '#');
 
   imgMeal1.setAttribute('class', 'img-meal');
-  imgMeal1.setAttribute('src', '../assets/images/Ekwang.jpg');
+  imgMeal1.setAttribute('src', 'assets/images/Ekwang.jpg');
   imgMeal2.setAttribute('class', 'img-meal');
-  imgMeal2.setAttribute('src', '../assets/images/yellow-soup.jpg');
+  imgMeal2.setAttribute('src', 'assets/images/yellow-soup.jpg');
   imgMeal3.setAttribute('class', 'img-meal');
-  imgMeal3.setAttribute('src', '../assets/images/Egusi-Pudding-Recipe.jpg');
+  imgMeal3.setAttribute('src', 'assets/images/Egusi-Pudding-Recipe.jpg');
   imgMeal4.setAttribute('class', 'img-meal');
-  imgMeal4.setAttribute('src', '../assets/images/eru.jpg');
+  imgMeal4.setAttribute('src', 'assets/images/eru.jpg');
   imgMeal5.setAttribute('class', 'img-meal');
-  imgMeal5.setAttribute('src', '../assets/images/eru.jpg');
+  imgMeal5.setAttribute('src', 'assets/images/eru.jpg');
 
   parMeal1.setAttribute('class', 'par-meal');
   parMeal1.innerText = 'Dish One(Ekwang)';
@@ -62,7 +62,7 @@ const displayMenu = () => {
   menu.setAttribute('id', 'myMenu');
   homeNote.setAttribute('class', 'main-quote');
   homeImg.setAttribute('class', 'main-menu-img');
-  homeImg.setAttribute('src', '../assets/images/eru.jpg');
+  homeImg.setAttribute('src', 'assets/images/eru.jpg');
 
   menu.style.display = 'none';
 

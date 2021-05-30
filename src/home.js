@@ -15,7 +15,7 @@ const displayHome = () => {
   homeNote.setAttribute('class', 'home-note');
   homeImg.setAttribute('class', 'home-img');
 
-  homeImg.setAttribute('src', '../assets/images/lauch.jpg');
+  homeImg.setAttribute('src', 'assets/images/lauch.jpg');
 
   home.appendChild(homeTitle);
   home.appendChild(homeNote);
