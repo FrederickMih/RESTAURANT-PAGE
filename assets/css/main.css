@@ -24,7 +24,7 @@ body {
 }
 
 .menu-link {
-  color: #eee7dddc;
+  color: #dfddeedc;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -62,7 +62,7 @@ body {
 
 .meal {
   margin: 1rem;
-  color: #eee7dddc;
+  color: #dfddeedc;
   text-decoration: none;
 }
 
@@ -77,8 +77,8 @@ body {
 
 nav {
   margin: 0;
-  color: #eee7dddc;
-  background-color: rgba(238, 244, 248, 0);
+  color: #dfddeedc;
+  background-color: rgba(238, 244, 248, 0.219);
   padding-top: 2rem;
 }
 
@@ -99,10 +99,10 @@ nav {
   padding: 2rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-color: rgba(238, 244, 248, 0);
+  background-color: rgba(238, 244, 248, 0.219);
   border-radius: 10px;
   text-align: center;
-  color: #eee7dddc;
+  color: #dfddeedc;
   font-size: 2rem;
 }
 
@@ -118,8 +118,8 @@ nav {
 
 .footer {
   margin: 0;
-  color: #eee7dddc;
-  background-color: rgba(238, 244, 248, 0);
+  color: #dfddeedc;
+  background-color: rgba(238, 244, 248, 0.219);
   padding: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
