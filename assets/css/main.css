@@ -1,5 +1,5 @@
 body {
-  font: 100% courier, arial, helvetica;
+  font: 100% Helvetica, sans-serif;
   background: url(/assets/images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
@@ -31,7 +31,7 @@ body {
 }
 
 .menu-link:hover {
-  color: #765281;
+  color: #8d0517;
 }
 
 #myMenu {
