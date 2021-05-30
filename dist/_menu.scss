@@ -1,0 +1,49 @@
+.menu-item {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2rem;
+  
+    
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.menu-link {
+    color: $page-color;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-link:hover {
+    color: #8d0517;
+}
+
+#myMenu {
+    width: 90%;
+}
+
+.img-meal {
+    width: 20rem;
+    border-radius: 5px;
+    transition: width 0.7s;
+}
+
+.img-meal:hover {
+    width: 22rem;
+}
+
+.meals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.meal {
+    margin: 1rem;
+    color: $page-color;
+    text-decoration: none;
+}
