@@ -1,0 +1,12 @@
+$font-family: Helvetica, sans-serif;
+$page-color: #dfddeedc;
+$other-color: rgba(238, 244, 248, 0.219);
+$hover-color: #000000;
+
+body {
+    font: 100% $font-family;
+    background: url(assets/images/bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
