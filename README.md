@@ -26,7 +26,7 @@ There I used JavaScript alone to generate the entire contents of the website.
 
 ### Deployment
 
-This application is deployed on [GitHubPages]().
+This application is deployed on [GitHubPages](https://frederickmih.github.io/RESTAURANT-PAGE/).
 
 ## Authors
 
